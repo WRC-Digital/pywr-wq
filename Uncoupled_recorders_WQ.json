@@ -1,0 +1,2109 @@
+{
+  "metadata": {
+    "title": "Grootdraai3",
+    "description": ""
+  },
+  "timestepper": {
+    "start": "1920-10-01",
+    "end": "2010-09-29",
+    "timestep": 1
+  },
+  "scenarios": [
+    {
+      "name": "scenario A",
+      "size": 1,
+      "slice": [
+        0,
+        1
+      ]
+    }
+  ],
+  "parameters": {
+    "__output_8__:max_flow": {
+      "type": "dataframe",
+      "table": "output_8_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },	
+    "__catchment_1__:flow": {
+      "type": "dataframe",
+      "table": "__catchment_1__:flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__catchment_2__:flow": {
+      "type": "dataframe",
+      "table": "Node_373_inflows",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__catchment_3__:flow": {
+      "type": "dataframe",
+      "table": "DD1_inflows",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__catchment_4__:flow": {
+      "type": "dataframe",
+      "table": "Node_392_inflows",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__catchment_5__:flow": {
+      "type": "dataframe",
+      "table": "DD2_inflows",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__catchment_6__:flow": {
+      "type": "dataframe",
+      "table": "Groot_inflows",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_1__:max_flow": {
+      "type": "dataframe",
+      "table": "output_1_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_2__:max_flow": {
+      "type": "dataframe",
+      "table": "output_2_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_3__:max_flow": {
+      "type": "dataframe",
+      "table": "output_3_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_4__:max_flow": {
+      "type": "dataframe",
+      "table": "output_4_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_5__:max_flow": {
+      "type": "dataframe",
+      "table": "output_5_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_6__:max_flow": {
+      "type": "dataframe",
+      "table": "output_6_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__output_7__:max_flow": {
+      "type": "dataframe",
+      "table": "output_7_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow1__:flow": {
+      "type": "dataframe",
+      "table": "NODE_372_1_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow2__:flow": {
+      "type": "dataframe",
+      "table": "NODE_372_2_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow3__:flow": {
+      "type": "dataframe",
+      "table": "NODE_372_3_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow4__:flow": {
+      "type": "dataframe",
+      "table": "NODE_374_1_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow5__:flow": {
+      "type": "dataframe",
+      "table": "NODE_374_2_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow6__:flow": {
+      "type": "dataframe",
+      "table": "NODE_100_1_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow7__:flow": {
+      "type": "dataframe",
+      "table": "NODE_7005_1_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow8__:flow": {
+      "type": "dataframe",
+      "table": "NODE_7005_2_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow9__:flow": {
+      "type": "dataframe",
+      "table": "NODE_402_1_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow10__:flow": {
+      "type": "dataframe",
+      "table": "NODE_402_2_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow11__:flow": {
+      "type": "dataframe",
+      "table": "NODE_402_3_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__return_flow12__:flow": {
+      "type": "dataframe",
+      "table": "Groot_1_return_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__transfer_in1__:flow": {
+      "type": "dataframe",
+      "table": "NODE_7004_transfers_in",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__transfer_in2__:flow": {
+      "type": "dataframe",
+      "table": "NODE_287_transfers_in",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__transfer_out1__:max_flow": {
+      "type": "dataframe",
+      "table": "Groot_transfers_out",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__DD1_rainfall__:flow": {
+      "type": "dataframe",
+      "table": "DD1_rainfall_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__DD2_rainfall__:flow": {
+      "type": "dataframe",
+      "table": "DD2_rainfall_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__Groot_rainfall__:flow": {
+      "type": "dataframe",
+      "table": "Groot_rainfall_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__DD1_evaporation__:max_flow": {
+      "type": "dataframe",
+      "table": "DD1_evaporation_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__DD2_evaporation__:max_flow": {
+      "type": "dataframe",
+      "table": "DD2_evaporation_max_flow",
+      "index_col": 0,
+      "scenario": "scenario A",
+      "parse_dates": true
+    },
+    "__Groot_evaporation__:max_flow": {
+      "type": "dataframe",
+      "table": "Groot_evaporation_max_flow",
+      "index_col": 0,
+      "parse_dates": true
+    },
+    "__Groot_releases__:max_flow": {
+      "type": "dataframe",
+      "table": "Groot_releases_max_flow",
+      "index_col": 0,
+      "parse_dates": true
+    },
+    "__DD1_releases__:max_flow": {
+      "type": "dataframe",
+      "table": "DD1_releases_max_flow",
+      "index_col": 0,
+      "parse_dates": true
+    },
+    "__DD2_releases__:max_flow": {
+      "type": "dataframe",
+      "table": "DD2_releases_max_flow",
+      "index_col": 0,
+      "parse_dates": true
+    },
+    "control_curve": {
+      "type": "monthlyprofile",
+      "values": [
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "Groot_transfer_controller": {
+      "type": "controlcurve",
+      "storage_node": "Grootdraai_Dam",
+      "control_curve": "control_curve",
+      "values": [
+        0.0,
+        10.0
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "Node_100",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.8147,
+          -26.9645
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_287",
+      "type": "link",
+      "position": {
+        "geographic": [
+          30.0681,
+          -26.8594
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_34",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.9614,
+          -26.5478
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_372",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.8814,
+          -26.6491
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_373",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.7747,
+          -26.7087
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_374",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.6659,
+          -26.7523
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_392",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.5725,
+          -26.796
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_402",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.4614,
+          -26.8694
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_412",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.2171,
+          -26.9598
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_7004",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.7106,
+          -26.566
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Node_7005",
+      "type": "link",
+      "position": {
+        "geographic": [
+          29.537,
+          -26.6928
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "catchment3",
+      "type": "catchment",
+      "flow": "__catchment_3__:flow",
+      "position": {
+        "geographic": [
+          30.0902,
+          -27.1135
+        ]
+      },
+      "TDS_concentration_GW": 375,
+      "TDS_concentration_IF": 50,
+      "TDS_concentration_SF": 10,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0.2,
+      "NO3_concentration_SF": 0.3,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 2,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "catchment4",
+      "type": "catchment",
+      "flow": "__catchment_4__:flow",
+      "position": {
+        "geographic": [
+          29.6657,
+          -26.8391
+        ]
+      },
+      "TDS_concentration_GW": 375,
+      "TDS_concentration_IF": 50,
+      "TDS_concentration_SF": 10,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0.2,
+      "NO3_concentration_SF": 0.3,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 2,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "catchment5",
+      "type": "catchment",
+      "flow": "__catchment_5__:flow",
+      "position": {
+        "geographic": [
+          29.4774,
+          -26.4822
+        ]
+      },
+      "TDS_concentration_GW": 375,
+      "TDS_concentration_IF": 50,
+      "TDS_concentration_SF": 10,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0.2,
+      "NO3_concentration_SF": 0.3,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 2,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "catchment6",
+      "type": "catchment",
+      "position": {
+        "geographic": [
+          29.3529,
+          -26.9859
+        ]
+      },
+      "flow": 0,
+      "TDS_concentration_GW": 375,
+      "TDS_concentration_IF": 50,
+      "TDS_concentration_SF": 10,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0.2,
+      "NO3_concentration_SF": 0.3,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 2,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "catchment_1",
+      "type": "catchment",
+      "flow": "__catchment_1__:flow",
+      "position": {
+        "geographic": [
+          30.1186,
+          -26.5389
+        ]
+      },
+      "TDS_concentration_GW": 375,
+      "TDS_concentration_IF": 50,
+      "TDS_concentration_SF": 10,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0.2,
+      "NO3_concentration_SF": 0.3,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 2,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "catchment_2",
+      "type": "catchment",
+      "flow": "__catchment_2__:flow",
+      "position": {
+        "geographic": [
+          29.7899,
+          -26.8292
+        ]
+      },
+      "TDS_concentration_GW": 375,
+      "TDS_concentration_IF": 50,
+      "TDS_concentration_SF": 10,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0.2,
+      "NO3_concentration_SF": 0.3,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 2,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD1",
+      "type": "storage",
+      "max_volume": 35.52,
+      "initial_volume": 35.52,
+      "position": {
+        "geographic": [
+          29.9826,
+          -27.0818
+        ]
+      },
+      "cost": -500,
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD1_evaporation",
+      "type": "output",
+      "cost": -1000,
+      "position": {
+        "geographic": [
+          29.9629,
+          -27.0917
+        ]
+      },
+      "max_flow": "__DD1_evaporation__:max_flow",
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD1_rainfall",
+      "type": "catchment",
+      "position": {
+        "geographic": [
+          29.9793,
+          -27.099
+        ]
+      },
+      "flow": "__DD1_rainfall__:flow",
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD1_release",
+      "type": "link",
+      "cost": -1000,
+      "position": {
+        "geographic": [
+          29.9264,
+          -27.0214
+        ]
+      },
+      "max_flow": 0,
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD1_spill",
+      "type": "link",
+      "cost": 100000,
+      "position": {
+        "geographic": [
+          29.9083,
+          -27.0585
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD2",
+      "type": "storage",
+      "max_volume": 8.26,
+      "initial_volume": 8.26,
+      "position": {
+        "geographic": [
+          29.4853,
+          -26.6014
+        ]
+      },
+      "cost": -500,
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD2_evaporation",
+      "type": "output",
+      "cost": -1000,
+      "position": {
+        "geographic": [
+          29.4499,
+          -26.5855
+        ]
+      },
+      "max_flow": "__DD2_evaporation__:max_flow",
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD2_rainfall",
+      "type": "catchment",
+      "position": {
+        "geographic": [
+          29.4447,
+          -26.6061
+        ]
+      },
+      "flow": "__DD2_rainfall__:flow",
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD2_release",
+      "type": "link",
+      "cost": -1000,
+      "position": {
+        "geographic": [
+          29.4859,
+          -26.6438
+        ]
+      },
+      "max_flow": 0,
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "DD2_spill",
+      "type": "link",
+      "cost": 100000,
+      "position": {
+        "geographic": [
+          29.5141,
+          -26.6375
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Grootdraai_Dam",
+      "type": "storage",
+      "area": 23,
+      "max_volume": 350.33,
+      "initial_volume": 347.46,
+      "position": {
+        "geographic": [
+          29.3092,
+          -26.9151
+        ]
+      },
+      "cost": -500,
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Groot_evaporation",
+      "type": "output",
+      "cost": -1000,
+      "position": {
+        "geographic": [
+          29.3105,
+          -26.9398
+        ]
+      },
+      "max_flow": "__Groot_evaporation__:max_flow",
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Groot_rainfall",
+      "type": "catchment",
+      "position": {
+        "geographic": [
+          29.3434,
+          -26.9377
+        ]
+      },
+      "flow": "__Groot_rainfall__:flow",
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Groot_release",
+      "type": "link",
+      "cost": -1000,
+      "position": {
+        "geographic": [
+          29.2541,
+          -26.927
+        ]
+      },
+      "max_flow": 0,
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "Groot_spill",
+      "type": "link",
+      "cost": 100000,
+      "position": {
+        "geographic": [
+          29.2711,
+          -26.9409
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "out",
+      "type": "output",
+      "position": {
+        "geographic": [
+          29.1749,
+          -27.0144
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_1",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_1__:max_flow",
+      "position": {
+        "geographic": [
+          29.9562,
+          -26.4036
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_2",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_2__:max_flow",
+      "position": {
+        "geographic": [
+          29.8315,
+          -26.566
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_3",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_3__:max_flow",
+      "position": {
+        "geographic": [
+          29.6426,
+          -26.5727
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_4",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_4__:max_flow",
+      "position": {
+        "geographic": [
+          29.7643,
+          -26.972
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_5",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_5__:max_flow",
+      "position": {
+        "geographic": [
+          30.0627,
+          -27.0337
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_6",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_6__:max_flow",
+      "position": {
+        "geographic": [
+          29.5696,
+          -26.8765
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_7",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_7__:max_flow",
+      "position": {
+        "geographic": [
+          29.4931,
+          -26.775
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "output_8",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__output_8__:max_flow",
+      "position": {
+        "geographic": [
+          29.2577,
+          -26.8695
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    },
+    {
+      "name": "return_flow1",
+      "type": "catchment",
+      "flow": "__return_flow1__:flow",
+      "position": {
+        "geographic": [
+          30.0166,
+          -26.6707
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow10",
+      "type": "catchment",
+      "flow": "__return_flow10__:flow",
+      "position": {
+        "geographic": [
+          29.4048,
+          -26.838
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow11",
+      "type": "catchment",
+      "flow": "__return_flow11__:flow",
+      "position": {
+        "geographic": [
+          29.4754,
+          -26.9378
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow12",
+      "type": "catchment",
+      "flow": "__return_flow12__:flow",
+      "position": {
+        "geographic": [
+          29.3126,
+          -26.8398
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow2",
+      "type": "catchment",
+      "flow": "__return_flow2__:flow",
+      "position": {
+        "geographic": [
+          29.9486,
+          -26.7415
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow3",
+      "type": "catchment",
+      "flow": "__return_flow3__:flow",
+      "position": {
+        "geographic": [
+          29.8617,
+          -26.7651
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 508,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow4",
+      "type": "catchment",
+      "flow": "__return_flow4__:flow",
+      "position": {
+        "geographic": [
+          29.6655,
+          -26.7013
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow5",
+      "type": "catchment",
+      "flow": "__return_flow5__:flow",
+      "position": {
+        "geographic": [
+          29.6055,
+          -26.7131
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 1141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow6",
+      "type": "catchment",
+      "flow": "__return_flow6__:flow",
+      "position": {
+        "geographic": [
+          29.7938,
+          -26.9938
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 571,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow7",
+      "type": "catchment",
+      "flow": "__return_flow7__:flow",
+      "position": {
+        "geographic": [
+          29.4303,
+          -26.7015
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 1000,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow8",
+      "type": "catchment",
+      "flow": "__return_flow8__:flow",
+      "position": {
+        "geographic": [
+          29.4205,
+          -26.6594
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "return_flow9",
+      "type": "catchment",
+      "flow": "__return_flow9__:flow",
+      "position": {
+        "geographic": [
+          29.4617,
+          -26.8188
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 141,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "transfer_in1",
+      "type": "catchment",
+      "flow": "__transfer_in1__:flow",
+      "position": {
+        "geographic": [
+          29.6539,
+          -26.3969
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 200,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "transfer_in2",
+      "type": "catchment",
+      "flow": "__transfer_in2__:flow",
+      "position": {
+        "geographic": [
+          30.1828,
+          -26.8776
+        ]
+      },
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 200,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0.5,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0.5
+    },
+    {
+      "name": "transfer_out1",
+      "type": "output",
+      "cost": -10000,
+      "max_flow": "__transfer_out1__:max_flow",
+      "position": {
+        "geographic": [
+          29.2047,
+          -26.887
+        ]
+      },
+
+      "TDS_concentration_GW": 0,
+      "TDS_concentration_IF": 0,
+      "TDS_concentration_SF": 0,
+      "TDS_concentration": 0,
+      "NO3_concentration_GW": 0,
+      "NO3_concentration_IF": 0,
+      "NO3_concentration_SF": 0,
+      "NO3_concentration": 0,
+      "NH4_concentration_GW": 0,
+      "NH4_concentration_IF": 0,
+      "NH4_concentration_SF": 0,
+      "NH4_concentration": 0
+    }
+  ],
+  "edges": [
+    [
+      "Node_100",
+      "Node_374"
+    ],
+    [
+      "Node_100",
+      "output_4"
+    ],
+    [
+      "Node_287",
+      "Node_100"
+    ],
+    [
+      "Node_34",
+      "Node_372"
+    ],
+    [
+      "Node_34",
+      "output_1"
+    ],
+    [
+      "Node_372",
+      "Node_373"
+    ],
+    [
+      "Node_372",
+      "output_2"
+    ],
+    [
+      "Node_373",
+      "Node_374"
+    ],
+    [
+      "Node_373",
+      "output_3"
+    ],
+    [
+      "Node_374",
+      "Node_392"
+    ],
+    [
+      "Node_392",
+      "Node_402"
+    ],
+    [
+      "Node_392",
+      "output_6"
+    ],
+    [
+      "Node_402",
+      "Grootdraai_Dam"
+    ],
+    [
+      "Node_412",
+      "out"
+    ],
+    [
+      "Node_7004",
+      "Node_373"
+    ],
+    [
+      "Node_7005",
+      "Node_392"
+    ],
+    [
+      "Node_7005",
+      "output_7"
+    ],
+    [
+      "catchment3",
+      "DD1"
+    ],
+    [
+      "catchment4",
+      "Node_392"
+    ],
+    [
+      "catchment5",
+      "DD2"
+    ],
+    [
+      "catchment6",
+      "Grootdraai_Dam"
+    ],
+    [
+      "catchment_1",
+      "Node_34"
+    ],
+    [
+      "catchment_2",
+      "Node_373"
+    ],
+    [
+      "DD1",
+      "DD1_evaporation"
+    ],
+    [
+      "DD1",
+      "DD1_release"
+    ],
+    [
+      "DD1",
+      "DD1_spill"
+    ],
+    [
+      "DD1",
+      "output_5"
+    ],
+    [
+      "DD1_rainfall",
+      "DD1"
+    ],
+    [
+      "DD1_release",
+      "Node_100"
+    ],
+    [
+      "DD1_spill",
+      "Node_100"
+    ],
+    [
+      "DD2",
+      "DD2_evaporation"
+    ],
+    [
+      "DD2",
+      "DD2_release"
+    ],
+    [
+      "DD2",
+      "DD2_spill"
+    ],
+    [
+      "DD2_rainfall",
+      "DD2"
+    ],
+    [
+      "DD2_release",
+      "Node_7005"
+    ],
+    [
+      "DD2_spill",
+      "Node_7005"
+    ],
+    [
+      "Grootdraai_Dam",
+      "Groot_evaporation"
+    ],
+    [
+      "Grootdraai_Dam",
+      "Groot_release"
+    ],
+    [
+      "Grootdraai_Dam",
+      "Groot_spill"
+    ],
+    [
+      "Grootdraai_Dam",
+      "output_8"
+    ],
+    [
+      "Grootdraai_Dam",
+      "transfer_out1"
+    ],
+    [
+      "Groot_rainfall",
+      "Grootdraai_Dam"
+    ],
+    [
+      "Groot_release",
+      "Node_412"
+    ],
+    [
+      "Groot_spill",
+      "Node_412"
+    ],
+    [
+      "return_flow1",
+      "Node_372"
+    ],
+    [
+      "return_flow10",
+      "Node_402"
+    ],
+    [
+      "return_flow11",
+      "Node_402"
+    ],
+    [
+      "return_flow12",
+      "Grootdraai_Dam"
+    ],
+    [
+      "return_flow2",
+      "Node_372"
+    ],
+    [
+      "return_flow3",
+      "Node_372"
+    ],
+    [
+      "return_flow4",
+      "Node_374"
+    ],
+    [
+      "return_flow5",
+      "Node_374"
+    ],
+    [
+      "return_flow6",
+      "Node_100"
+    ],
+    [
+      "return_flow7",
+      "Node_7005"
+    ],
+    [
+      "return_flow8",
+      "Node_7005"
+    ],
+    [
+      "return_flow9",
+      "Node_402"
+    ],
+    [
+      "transfer_in1",
+      "Node_7004"
+    ],
+    [
+      "transfer_in2",
+      "Node_287"
+    ]
+  ],
+  "tables": {
+    "__catchment_1__:flow": {
+      "url": "data/flows/NODE_34.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Node_373_inflows": {
+      "url": "data/flows/NODE_373.xlsx",
+      "index_col": 0,
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD1_inflows": {
+      "url": "data/flows/DD1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Node_392_inflows": {
+      "url": "data/flows/NODE_392.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD2_inflows": {
+      "url": "data/flows/DD2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Groot_inflows": {
+      "url": "data/flows/Groot.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_1_max_flow": {
+      "url": "data/demands/output_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_2_max_flow": {
+      "url": "data/demands/output_2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_3_max_flow": {
+      "url": "data/demands/output_3.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_4_max_flow": {
+      "url": "data/demands/output_4.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_5_max_flow": {
+      "url": "data/demands/output_5.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_6_max_flow": {
+      "url": "data/demands/output_6.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_7_max_flow": {
+      "url": "data/demands/output_7.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "output_8_max_flow": {
+      "url": "data/demands/output_8.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_372_1_return_flow": {
+      "url": "data/return_flows/NODE_372_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_372_2_return_flow": {
+      "url": "data/return_flows/NODE_372_2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_372_3_return_flow": {
+      "url": "data/return_flows/NODE_372_3.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_374_1_return_flow": {
+      "url": "data/return_flows/NODE_374_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_374_2_return_flow": {
+      "url": "data/return_flows/NODE_374_2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_100_1_return_flow": {
+      "url": "data/return_flows/NODE_100_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_7005_1_return_flow": {
+      "url": "data/return_flows/NODE_7005_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_7005_2_return_flow": {
+      "url": "data/return_flows/NODE_7005_2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_402_1_return_flow": {
+      "url": "data/return_flows/NODE_402_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_402_2_return_flow": {
+      "url": "data/return_flows/NODE_402_2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_402_3_return_flow": {
+      "url": "data/return_flows/NODE_402_3.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Groot_1_return_flow": {
+      "url": "data/return_flows/Groot_1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_7004_transfers_in": {
+      "url": "data/transfers_in/NODE_7004.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "NODE_287_transfers_in": {
+      "url": "data/transfers_in/NODE_287.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Groot_transfers_out": {
+      "url": "data/transfers_out/Groot.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD1_rainfall_flow": {
+      "url": "data/rainfall/DD1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD2_rainfall_flow": {
+      "url": "data/rainfall/DD2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Groot_rainfall_flow": {
+      "url": "data/rainfall/Groot.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD1_evaporation_max_flow": {
+      "url": "data/evaporation/Groot.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD2_evaporation_max_flow": {
+      "url": "data/evaporation/DD2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Groot_evaporation_max_flow": {
+      "url": "data/evaporation/Groot.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "Groot_releases_max_flow": {
+      "url": "data/reservoir_releases/Groot.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD1_releases_max_flow": {
+      "url": "data/reservoir_releases/DD1.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    },
+    "DD2_releases_max_flow": {
+      "url": "data/reservoir_releases/DD2.xlsx",
+      "index_col": "index",
+      "header": 0,
+      "parse_dates": true
+    }
+  }
+}
